@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-06 11:17:55 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUZFRDZDTlU7MjAyMi0xMS0wNjsxMDoxNzoxMyBQTTsyNzYw"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUZFRDZDTlU7MjAyMi0xMS0wNjsxMToxNzo1NSBQTTs0OzI4Nzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X, N, Z, y, i" type="Integer" array="False" size=""/>
+            <comment text="x Ilo&#347;&#263; dost&#281;pnych bajt&#243;w"/>
+            <input variable="X"/>
+            <comment text="N liczba miesi&#281;cy"/>
+            <input variable="N"/>
+            <assign variable="y" expression="0"/>
+            <for variable="i" start="1" end="N" direction="inc" step="1">
+                <comment text="Z liczba zu&#380;ytych bajt&#243;w w danym miesi&#261;cu"/>
+                <input variable="Z"/>
+                <assign variable="y" expression="y+(10-Z)"/>
+            </for>
+            <output expression="y+X" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
