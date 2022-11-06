@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-06 03:43:42 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUZFRDZDTlU7MjAyMi0xMS0wNjsxMjo1ODoyNyBQTTsyNzcy"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUZFRDZDTlU7MjAyMi0xMS0wNjswMzo0Mzo0MiBQTTsxOzI4NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <while expression="x&lt;0">
+                <output expression="&quot;mniejsza&quot;" newline="True"/>
+                <input variable="x"/>
+            </while>
+            <output expression="&quot;Wi&#281;ksza&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
